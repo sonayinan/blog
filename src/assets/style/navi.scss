@@ -1,0 +1,43 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    height: 100px;
+    background-color: rgb(130, 151, 144);
+    .logo{
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+        img{
+            width: 150px;
+        }
+        span{
+           
+            text-align: center;
+            
+        }
+    }
+   
+    
+    ul{
+        margin: 0;
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        li{
+            transition: 1s;
+        &:hover{
+            color: darkgreen;
+            transform: scale(1.1);
+        }
+        }
+    }
+   
+
+   
+}

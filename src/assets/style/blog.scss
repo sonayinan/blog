@@ -1,0 +1,17 @@
+.blog{ 
+    display: flex;
+    justify-content: center;
+    
+        color: rgb(71, 71, 92);
+        text-align: center;
+        
+    }
+   
+    .haber{
+        list-style: none;
+        li{
+            margin-bottom: 15px;
+            font-size: 25px;
+            text-align: left;
+        }
+    }

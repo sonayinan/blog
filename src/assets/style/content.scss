@@ -1,0 +1,29 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    letter-spacing: 1px;
+    img{
+        width: 400px;
+        
+    }
+    h3{
+        color: rgb(67, 109, 110);
+    }
+    .link{
+      
+        a{
+            color: rgb(63, 88, 88);
+            text-decoration: overline;
+            &:hover{
+                color: rgb(120, 98, 141);
+                
+            }
+        }
+    }
+}

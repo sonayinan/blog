@@ -1,0 +1,13 @@
+.hakkimda{
+    display: flex;
+    flex-direction: column;
+    
+    ul{
+        font-size: 20px;
+        line-height: 30px;
+        li{
+            color: rgb(37, 62, 63);
+            list-style: lower-alpha;
+        }
+    }
+}
